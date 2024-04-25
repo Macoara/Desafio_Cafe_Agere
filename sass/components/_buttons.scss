@@ -1,0 +1,31 @@
+.button {
+    border-style: solid;
+    border-width: 2px;
+    color: #a2a2a2;
+    cursor: pointer;
+    font-family: $font-secudary;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+.button__primary {
+    border-color: #A2A2A2;
+    background-color: $color-button;
+    color: #ffffff;
+}
+.button__primary:hover {
+    background-color: $color-button;
+    border-color: #000000;
+    color: #000000;
+}
+.button__secondary {
+    background-color: $color-button-secondary;
+    border-color: #A2A2A2;
+    color: #000000;
+}
+.button__secondary:hover {
+    background-color: #454545;
+    border-color: #000000;
+    color: #ffffff;
+}
+

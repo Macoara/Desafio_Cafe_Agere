@@ -1,0 +1,177 @@
+body {
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+head {
+  font-family: "PT Mono";
+}
+
+body {
+  font-family: "Roboto";
+}
+
+header {
+  background: #fff;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-family: "PT Mono";
+  font-size: 10px;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
+
+.header__text {
+  margin-left: 50px;
+}
+
+main {
+  max-width: 1000px;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imagen__principal {
+  width: 80%;
+  background: 100%;
+  align-content: start;
+}
+
+.main__container {
+  display: flex;
+  width: 100%;
+}
+
+.main__container img {
+  display: flex;
+  width: 1500px;
+  height: auto;
+}
+
+.main__text--container {
+  margin-left: 40px;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "PT Mono";
+}
+
+.main__container--subtitle {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.section__text {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag__container--dashboard {
+  background-color: #A2A2A2;
+  width: 80px;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flag__dashboard--variedades {
+  background-color: #A2A2A2;
+  border: 2px;
+  width: 140px;
+  height: 140px;
+  margin-top: 100px;
+}
+
+.flag__dashboard--paises {
+  background-color: #A2A2A2;
+  border: 2px;
+  width: 140px;
+  height: 140px;
+  margin-top: 100px;
+}
+
+.flag__dashboard--accesorios {
+  background-color: #A2A2A2;
+  border: 2px;
+  width: 140px;
+  height: 140px;
+  margin-top: 100px;
+}
+
+.section__text {
+  flex-direction: flex;
+}
+
+.flex__container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: nowrap;
+}
+
+.section__image--map {
+  width: 700px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.section__image--coffee {
+  width: 200px;
+  height: auto;
+}
+
+.section__image--machine {
+  width: 300px;
+  height: auto;
+}
+
+.button {
+  border-style: solid;
+  border-width: 2px;
+  color: #a2a2a2;
+  cursor: pointer;
+  font-family: "PT Mono";
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+.button__primary {
+  border-color: #A2A2A2;
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.button__primary:hover {
+  background-color: #4CAF50;
+  border-color: #000000;
+  color: #000000;
+}
+
+.button__secondary {
+  background-color: #A2A2A2;
+  border-color: #A2A2A2;
+  color: #000000;
+}
+
+.button__secondary:hover {
+  background-color: #454545;
+  border-color: #000000;
+  color: #ffffff;
+}
+
+/* Third party styles here *//*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+header {
+    background: $color-white;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    @include flex-start;
+    font-family: $font-secudary;
+    font-size: 10px;
+  }
+  
+  header img {
+    width: 50px;
+    height: auto;
+    padding: 10px;
+  }
+  .header__text {
+    margin-left: 50px;
+  }
+
